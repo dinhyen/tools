@@ -1,0 +1,117 @@
+post_path: ~/Sites/blog/source/_posts
+img_path: ~/Dropbox/Public
+content:
+  2011-04-26-its-alive.markdown:	its-alive
+  2011-04-28-ooh-shiny.markdown:	ooh-shiny
+  2011-05-29-costa-rica-day-1-san-jose.markdown:	
+  2011-05-29-costa-rica-day-2-wednesday-san-jose-to-arenal.markdown:	costa-rica-2
+  2011-05-29-marblehead-meander.markdown:	marblehead
+  2011-05-29-spring-forward.markdown:	spring-2011
+  2011-05-30-costa-rica-day-3-thursday-arenal.markdown:	costa-rica-3
+  2011-05-30-costa-rica-day-4-friday-arenal-to-monteverde.markdown:	costa-rica-4
+  2011-05-30-costa-rica-day-5-saturday-monteverde.markdown:	costa-rica-5
+  2011-05-30-costa-rica-day-6-sunday-monteverde-to-san-jose.markdown:	costa-rica-6
+  2011-05-30-costa-rica-day-7-monday-san-jose.markdown:	costa-rica-7
+  2011-06-09-the-man-they-call-bobby.markdown:	
+  2011-06-14-we-want-the-cup.markdown:	
+  2011-06-15-we-won-the-cup.markdown:	
+  2011-06-18-stanley-cup-parade.markdown:	stanley-cup-2011
+  2011-06-20-the-habitat-sanctuary.markdown:	audubon-habitat
+  2011-06-21-dont-trip-and-fall-the-chihuly-exhibit.markdown:	chihuly
+  2011-06-21-why-hockey-is-the-best.markdown:	
+  2011-06-22-great-meadows-national-wildlife-refuge.markdown: great-meadows
+  2011-06-22-head-of-the-charles-2010.markdown:	head-of-the-charles-2010
+  2011-06-23-foliage-2010.markdown:	foliage-2010
+  2011-06-23-who-are-the-bruins.markdown:	
+  2011-07-05-quebec-1-july.markdown:	
+  2011-07-05-quebec-2-july.markdown:	quebec-1
+  2011-07-05-quebec-3-july.markdown:	quebec-2
+  2011-07-06-quebec-4-july.markdown:	quebec-3
+  2011-07-10-hub-on-wheels-2010.markdown:	hub-on-wheels-2010
+  2011-07-14-the-doors-of-boston.markdown:	
+  2011-07-19-drawing-hair.markdown:	
+  2011-08-14-installing-windows-7-x86-for-the-asrock-939dual-sata2-motherboard.markdown:	
+  2011-08-23-removing-malware.markdown:	
+  2011-09-06-book-review-wizards-first-rule-sword-of-truth-series-book-1-by-terry-goodkind.markdown:	
+  2011-09-06-granting-permissions-to-the-application-pool-identity-in-iis-7-5.markdown:	
+  2011-09-06-hiking-mount-misery.markdown:	
+  2011-09-07-a-game-of-thrones-a-song-of-ice-and-fire-book-1-by-george-r-r-martin.markdown:	
+  2011-09-07-a-storm-of-swords-a-song-of-ice-and-fire-book-3-by-george-r-r-martin.markdown:	
+  2011-09-07-baldurs-gate-2-shadows-of-amn.markdown:	
+  2011-09-07-book-review-faith-of-the-fallen-sword-of-truth-series-book-6-by-terry-goodkind.markdown:	
+  2011-09-07-book-review-soul-of-the-fire-sword-of-truth-series-book-5-by-terry-goodkind.markdown:	
+  2011-09-07-book-review-temple-of-the-winds-sword-of-truth-series-book-4-by-terry-goodkind.markdown:	
+  2011-09-07-book-review-the-pillars-of-creation-sword-of-truth-series-book-7-by-terry-goodkind.markdown:	
+  2011-09-07-canon-powershot-s30-3mp-digital-camera-with-3x-optical-zoom.markdown:	
+  2011-09-07-crossroads-of-twilight-the-wheel-of-time-series-book-10-by-robert-jordan.markdown:	
+  2011-09-07-destiny-child-of-the-sky-by-elizabeth-haydon.markdown:	
+  2011-09-07-doom-3.markdown:	
+  2011-09-07-dragons-of-autumn-twilight-dragonlance-chronicles-volume-i-by-margaret-weis-tracy-hickman.markdown:	
+  2011-09-07-dragons-of-spring-dawning-dragonlance-chronicles-book-3-by-margaret-weis-tracy-hickman.markdown:	
+  2011-09-07-dragons-of-winter-night-dragonlance-chronicles-volume-ii-by.markdown:	
+  2011-09-07-icewind-dale-2.markdown:	
+  2011-09-07-john-shaws-nature-photography-field-guide-by-john-shaw.markdown:	
+  2011-09-07-rhapsody-child-of-blood-by-elizabeth-haydon.markdown:	
+  2011-09-07-streams-of-silver-forgotten-realms-the-icewind-dale-trilogy-book-2-by-r-a-salvatore.markdown:	
+  2011-09-07-the-art-of-the-fellowship-of-the-ring-the-lord-of-the-rings-by-gary-russell.markdown:	
+  2011-09-07-the-crystal-shard-forgotten-realms-the-icewind-dale-trilogy-book-1-by-r-a-salvatore.markdown:	
+  2011-09-07-the-halflings-gem-forgotten-realms-the-icewind-dale-trilogy-book-3-by-r-a-salvatore.markdown:	
+  2011-09-07-the-redemption-of-althalus-by-david-leigh-eddings.markdown:	
+  2011-09-11-broadmoor-wildlife-sanctuary.markdown:	broadmoor
+  2011-09-11-hiking-mount-monadnock.markdown:	monadnock
+  2011-12-08-automapper-mismatched-types.markdown:	
+  2011-12-08-autumn-2009.markdown:	autumn-2009
+  2011-12-13-msbuild-project-directory.markdown:	
+  2011-12-21-visual-studio-line-number-macros.markdown:	
+  2011-12-31-installing-cyanogenmod-on-the-htc-aria.markdown:	
+  2012-01-03-installing-antivirus-changes-firefox-keyword-url.markdown:	
+  2012-01-11-modifying-sql-server-table-without-dropping-and-recreating-it.markdown:	
+  2012-01-23-on-the-bruins-2011-white-house-appearance.markdown:	
+  2012-02-09-configuring-wifi-for-the-brother-hl-2280dw-laser-printer-on-windows.markdown:	brother-printer
+  2012-03-31-using-lightbox-with-nextgen-gallery.markdown:	
+  2012-04-03-loading-jquery-from-google-cdn-and-dependent-scripts-in-wordpress-2.markdown:	
+  2012-04-03-locating-program-files-folder-in-Visual-Studio.markdown:	
+  2012-04-03-mapping-pagedlist-with-automapper.markdown:	
+  2012-04-03-stack-overflow-exception-when-mvc-view-and-partial-view-have-the-same-name.markdown:	
+  2012-04-04-berkshires-2010.markdown:	berkshires-2010
+  2012-05-10-backing-up-your-site-with-vdeck.markdown:	
+  2012-05-11-modifying-config-file-in-an-msbuild-project.markdown:	
+  2012-05-18-deleting-from-collection-with-linq-to-sql.markdown:	
+  2012-05-20-the-reformatory-branch-trail.markdown:	
+  2012-06-29-editing-collection-with-linq-to-sql.markdown:	
+  2012-07-05-acadia-national-park-biking-the-carriage-roads.markdown:	
+  2012-07-05-acadia-national-park-gorham-mountain.markdown:	acadia-gorham
+  2012-07-08-acadia-national-park-cadillac-mountain.markdown:	acadia-cadillac
+  2012-07-08-acadia-national-park-the-bubbles.markdown:	acadia-bubbles
+  2012-07-10-acadia-national-park-dorr-mountain.markdown:	acadia-dorr
+  2012-07-10-acadia-national-park-great-head-trail.markdown:	acadia-great-head
+  2012-07-10-acadia-national-park-jesup-path.markdown:	acadia-jesup
+  2012-07-10-auto-property-with-private-setter.markdown:	
+  2012-07-15-revere-beach-sand-sculptures.markdown:	revere-2012
+  2012-07-16-lima.markdown:	peru-lima
+  2012-07-17-cusco.markdown:	peru-cusco
+  2012-07-19-pisac.markdown:	peru-pisac
+  2012-07-24-sacsayhuaman.markdown:	peru-sacsayhuaman
+  2012-07-31-machu-picchu.markdown:	peru-machu-picchu
+  2012-08-07-ollantaytambo.markdown:	peru-ollantaytambo
+  2012-08-09-paris-flashback.markdown:	paris-1999
+  2012-09-16-replacing-motherboard-without-reinstalling-windows.markdown:	
+  2012-11-04-looper.markdown:	
+  2012-11-15-using-hudson-with-git-and-msbuild-on-windows.markdown:	
+  2012-12-15-setting-up-git-to-work-remotely.markdown:	
+  2012-12-18-quickly-editing-waypoints-on-a-garmin-gps-device.markdown:	
+  2013-02-01-mini-project-adding-a-second-hard-drive-to-the-mac-mini.markdown:	mac-mini-ssd
+  2013-02-13-fix-external-lockout-for-american-standard-freedom-90-furnace.markdown:	furnace-repair
+  2013-03-08-you-played-with-who.markdown:	
+  2013-03-19-intermittent-temporary-freezing-on-macbook-with-ocz-vertex-3.markdown:	
+  2013-04-24-animate-textbox-using-knockoutjs.markdown:	
+  2013-07-02-search-box-using-knockoutjs.markdown:	
+  2013-08-09-fun-with-css-sibling-selectors.markdown:	
+  2013-09-17-bruins-training-camp-2013.markdown:	bruins-2013
+  2013-09-26-wix-batch-file.markdown:	
+  2013-09-27-wix-executing-custom-action-before-starting-windows-service.markdown:	
+  2013-09-28-simple-table-sorting-with-angular.markdown:	
+  2013-10-23-bruins-took-down-sabres-in-costly-victory.markdown:	
+  2013-10-31-helper-method-generate-nested-tags-from-block.markdown:	
+  2013-11-02-fixing-windows-media-center-no-tuner-available-error-with-hdhomerun-prime.markdown:	
+  2013-11-13-sigma-50mm-lens.markdown:	sigma-50mm

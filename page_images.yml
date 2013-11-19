@@ -1,0 +1,18 @@
+post_path: ~/Sites/blog/source/travel
+img_path: ~/Dropbox/Public
+content:
+  france/aix-en-provence/index.markdown: aix-en-provence
+  netherlands/amsterdam/index.markdown:  amsterdam
+  france/arromanches-les-bains/index.markdown: arromanches-les-bains
+  france/avignon/index.markdown: avignon
+  france/bayeux/index.markdown:  bayeux
+  france/bonnieux/index.markdown: bonnieux
+  france/cannes/index.markdown:  cannes
+  france/colleville-sur-mer/index.markdown: colleville-sur-mer
+  france/colmar/index.markdown:  colmar
+  france/connelles/index.markdown: connelles
+  france/etretat/index.markdown: etretat
+  france/eze/index.markdown: eze
+  france/gorges-du-verdon/index.markdown: gorges-du-verdon
+  uk/london/index.markdown:  london-2001
+  usa/ma/waterfalls/index.markdown:  waterfalls-of-ma
