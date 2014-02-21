@@ -1,59 +1,59 @@
 post_path: ~/Sites/blog/source/travel
-content_path: ~/Dropbox/Public
+content_path: ./travel
 content:
-  austria/hallstatt/index.markdown
-  austria/innsbruck/index.markdown
-  austria/melk/index.markdown
-  austria/mondsee/index.markdown
-  austria/salzburg/index.markdown
-  austria/vienna/index.markdown
-  canada/calgary/index.markdown
-  canada/canmore/index.markdown
-  france/chateau-de-vascoeuil/index.markdown
-  canada/halifax/index.markdown
-  canada/kelowna/index.markdown
-  canada/keremeos/index.markdown
-  czech-republic/prague/index.markdown
-  france/fecamp/index.markdown
-  france/fontaine-de-vaucluse/index.markdown
-  france/fontainebleau/index.markdown
-  france/giverny/index.markdown
-  france/gordes/index.markdown
-  france/honfleur/index.markdown
-  france/les-andelys/index.markdown
-  france/lisieux/index.markdown
-  france/lyons-la-foret/index.markdown
-  france/marseille/index.markdown
-  france/menton/index.markdown
-  france/mont-st-michel/index.markdown
-  france/nice/index.markdown
-  france/nimes/index.markdown
-  france/paris/index.markdown
-  france/peille/index.markdown
-  france/pont-audemer/index.markdown
-  france/pont-de-l-arche/index.markdown
-  france/reims/index.markdown
-  france/rouen/index.markdown
-  france/roussillon/index.markdown
-  france/saorge/index.markdown
-  france/st-samson-de-la-roque/index.markdown
-  france/strasbourg/index.markdown
-  france/trigance/index.markdown
-  france/trouville/index.markdown
-  france/vernon/index.markdown
-  germany/munich/index.markdown
-  germany/rothenburg-ob-der-tauber/index.markdown
-  germany/schloss-neuschwanstein/index.markdown
-  monaco/index.markdown
-  usa/az/grand-canyon-national-park/index.markdown
-  usa/fl/cape-canaveral/index.markdown
-  usa/hi/index.markdown
-  usa/ma/boston/index.markdown
-  usa/me/acadia-national-park/index.markdown
-  usa/mt/glacier-national-park/index.markdown
-  usa/nv/death-valley-national-park/index.markdown
-  usa/or/astoria/index.markdown
-  usa/or/cannon-beach/index.markdown
-  usa/or/crater-lake-national-park/index.markdown
-  usa/ut/bryce-canyon-national-park/index.markdown
-  usa/va/great-falls/index.markdown
+  - austria/hallstatt/index.markdown
+  - austria/innsbruck/index.markdown
+  - austria/melk/index.markdown
+  - austria/mondsee/index.markdown
+  - austria/salzburg/index.markdown
+  - austria/vienna/index.markdown
+  - canada/calgary/index.markdown
+  - canada/canmore/index.markdown
+  - france/chateau-de-vascoeuil/index.markdown
+  - canada/halifax/index.markdown
+  - canada/kelowna/index.markdown
+  - canada/keremeos/index.markdown
+  - czech-republic/prague/index.markdown
+  - france/fecamp/index.markdown
+  - france/fontaine-de-vaucluse/index.markdown
+  - france/fontainebleau/index.markdown
+  - france/giverny/index.markdown
+  - france/gordes/index.markdown
+  - france/honfleur/index.markdown
+  - france/les-andelys/index.markdown
+  - france/lisieux/index.markdown
+  - france/lyons-la-foret/index.markdown
+  - france/marseille/index.markdown
+  - france/menton/index.markdown
+  - france/mont-st-michel/index.markdown
+  - france/nice/index.markdown
+  - france/nimes/index.markdown
+  - france/paris/index.markdown
+  - france/peille/index.markdown
+  - france/pont-audemer/index.markdown
+  - france/pont-de-l-arche/index.markdown
+  - france/reims/index.markdown
+  - france/rouen/index.markdown
+  - france/roussillon/index.markdown
+  - france/saorge/index.markdown
+  - france/st-samson-de-la-roque/index.markdown
+  - france/strasbourg/index.markdown
+  - france/trigance/index.markdown
+  - france/trouville/index.markdown
+  - france/vernon/index.markdown
+  - germany/munich/index.markdown
+  - germany/rothenburg-ob-der-tauber/index.markdown
+  - germany/schloss-neuschwanstein/index.markdown
+  - monaco/index.markdown
+  - usa/az/grand-canyon-national-park/index.markdown
+  - usa/fl/cape-canaveral/index.markdown
+  - usa/hi/hawaii/index.markdown
+  - usa/ma/boston/index.markdown
+  - usa/me/acadia-national-park/index.markdown
+  - usa/mt/glacier-national-park/index.markdown
+  - usa/nv/death-valley-national-park/index.markdown
+  - usa/or/astoria/index.markdown
+  - usa/or/cannon-beach/index.markdown
+  - usa/or/crater-lake-national-park/index.markdown
+  - usa/ut/bryce-canyon-national-park/index.markdown
+  - usa/va/great-falls/index.markdown

@@ -4,14 +4,14 @@ require 'thor'
 require 'yaml'
 
 class DarkboxTools < Thor
-  desc 'md_from_dir', 'Read images from directories append markdown based on template to blog posts'
+  desc 'img_gen', 'Read images from directories append markdown based on template to blog posts'
   option :template, :aliases => :t, :required => true, :desc => 'The path of the template file to use'
   option :file, :aliases => :f, :required => true, :desc => 'Input YAML mapping blog postfile name to image folder name'
   # option :ext, :alias => '-e', :default => 'markdown', :desc => 'Markdown file extension'
   # option :out, :alias => '-o', :desc => 'Directory in which to write generate markdown files'
   option :silent, :aliases => :s, :type => :boolean, :default => false, :desc => 'Write run time info to console'
   def img_gen()
-    output = []
+    msg = []
     input = load_yaml(options.file)
 
     post_path = File.expand_path(input['post_path']) || '.'
@@ -33,8 +33,8 @@ class DarkboxTools < Thor
       full_img_dir = File.join img_path, img_dir
       full_thumb_dir = File.join full_img_dir, 'thumbs'
 
-      output << "#{post}"
-      output << "... #{img_dir}"
+      msg << "#{post}"
+      msg << "... #{img_dir}"
 
       html = []
       should_process = Dir.exists?(full_thumb_dir) # Only add template if we have thumbnails
@@ -54,13 +54,13 @@ class DarkboxTools < Thor
           str << '<!-- End darkbox -->'
           f << str.join("\n")
         end
-        output << "...... #{imgs.size} images"
+        msg << "...... #{imgs.size} images"
       else
-        output << "...... Skipping, no thumbnails detected"
+        msg << "...... Skipping, no thumbnails detected"
       end
     end
-    output << "#{list.size} entries"
-    log output.join("\n")
+    msg << "#{list.size} entries"
+    log msg.join("\n")
   end
 
 private
