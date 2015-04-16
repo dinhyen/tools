@@ -1,0 +1,20 @@
+# Parent path for markdown (left side of content path)
+post_path: ~/Sites/vietnamvac/source/media
+
+# Parent path for image folder (right side of content path)
+img_path: ~/Downloads/vietnamvac
+
+content:
+  boston-2014/index.markdown: boston-2014
+  # Paths are relative to post_path
+  # boston-2013/index.markdown:  boston-2013
+  # boston-2010/index.markdown:  boston-2010
+  # boston-2011/index.markdown:  boston-2011
+  # boston-2012/index.markdown:  boston-2012
+  # boston-2013/index.markdown:  boston-2013
+  # children-of-vac/index.markdown:  children-of-vac
+  # doctors-at-work/index.markdown:  doctors-at-work
+  # houston-2011/index.markdown: houston-2011
+  # vietnam-2009-2011/index.markdown:  vietnam-2009-2011
+  # vietnam-2012/index.markdown: vietnam-2012
+  # vietnam-2014/index.markdown: vietnam-2014

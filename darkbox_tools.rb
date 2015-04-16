@@ -7,6 +7,7 @@ class DarkboxTools < Thor
   desc 'img_gen', 'Read images from directories append markdown based on template to blog posts'
   option :template, :aliases => :t, :required => true, :desc => 'The path of the template file to use'
   option :file, :aliases => :f, :required => true, :desc => 'Input YAML mapping blog postfile name to image folder name'
+  option :lower, :aliases => :l, :desc => 'Use lowercase file names'
   # option :ext, :alias => '-e', :default => 'markdown', :desc => 'Markdown file extension'
   # option :out, :alias => '-o', :desc => 'Directory in which to write generate markdown files'
   option :silent, :aliases => :s, :type => :boolean, :default => false, :desc => 'Write run time info to console'
@@ -42,7 +43,7 @@ class DarkboxTools < Thor
         imgs = Dir.entries(full_thumb_dir)
         imgs = imgs.select { |img| full_img = File.join(full_img_dir, img); File.file?(full_img) }
         imgs.each do |img|
-          img.downcase!
+          img.downcase! if options.lower
           html << template.gsub(/\{\{dir\}\}/, img_dir).gsub(/\{\{file\}\}/, img)
         end
         str = []
