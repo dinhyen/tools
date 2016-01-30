@@ -48,12 +48,7 @@ class DarkboxTools < Thor
         end
         str = []
         File.open(full_post, 'a') do |f|
-          str << '<!-- Darkbox -->'
-          str << '<div class="darkbox">'
-          str << html.join
-          str << '</div>'
-          str << '<!-- End darkbox -->'
-          f << str.join("\n")
+          f << html_string(html)
         end
         msg << "...... #{imgs.size} images"
       else
@@ -64,7 +59,37 @@ class DarkboxTools < Thor
     log msg.join("\n")
   end
 
+  desc 'img_bind', 'Populate template from file containing image file names and print to stdout'
+  option :template, :aliases => :t, :required => true, :desc => 'The path of the template file to use'
+  option :file, :aliases => :f, :required => true, :desc => 'File containing image file names, one per line'
+  option :dir, :aliases => :d, :required => true, :desc => 'Image directory relative to /gallery in URL'
+  option :lower, :aliases => :l, :desc => 'Use lowercase file names'
+  # option :ext, :alias => '-e', :default => 'markdown', :desc => 'Markdown file extension'
+  # option :out, :alias => '-o', :desc => 'Directory in which to write generate markdown files'
+  option :silent, :aliases => :s, :type => :boolean, :default => false, :desc => 'Write run time info to console'
+  def img_bind()
+    template = File.read(options.template)
+
+    html = []
+    f = File.open(options.file, 'r')
+    f.each_line do |img|
+      img.strip!
+      html << template.gsub(/\{\{dir\}\}/, options.dir).gsub(/\{\{file\}\}/, img)
+    end
+    puts html_string(html)
+  end
+
 private
+
+  def html_string(img_html)
+    str = []
+    str << '<!-- Darkbox -->'
+    str << '<div class="darkbox">'
+    str << img_html.join
+    str << '</div>'
+    str << '<!-- End darkbox -->'
+    str.join("\n")
+  end
 
   def load_yaml(file)
     YAML.load_file(file)
