@@ -45,6 +45,7 @@ class FileTools < Thor
   option :file, :aliases => :f, :required => true, :desc => 'Input YAML mapping blog postfile name to image folder name'
   # option :ext, :alias => '-e', :default => 'markdown', :desc => 'Markdown file extension'
   # option :out, :alias => '-o', :desc => 'Directory in which to write generate markdown files'
+  option :lowercase, :aliases => :l, :type => :boolean, :default => false, :desc => 'Convert file name to lower case'
   option :silent, :aliases => :s, :type => :boolean, :default => false, :desc => 'Write run time info to console'
   def img_gen
     output = []
@@ -78,7 +79,7 @@ class FileTools < Thor
         imgs = Dir.entries(full_thumb_dir)
         imgs = imgs.select { |img| full_img = File.join(full_img_dir, img); File.file?(full_img) }
         imgs.each do |img|
-          img.downcase!
+          img.downcase! if options[:lowercase]
           html << template.gsub(/\{\{dir\}\}/, img_dir).gsub(/\{\{file\}\}/, img)
         end
         str = []
