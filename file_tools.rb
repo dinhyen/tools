@@ -76,7 +76,7 @@ class FileTools < Thor
       html = []
       should_process = Dir.exists?(full_thumb_dir) # Only add template if we have thumbnails
       if should_process
-        imgs = Dir.entries(full_thumb_dir)
+        imgs = Dir.entries(full_thumb_dir).sort
         imgs = imgs.select { |img| full_img = File.join(full_img_dir, img); File.file?(full_img) }
         imgs.each do |img|
           img.downcase! if options[:lowercase]
