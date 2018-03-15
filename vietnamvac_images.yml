@@ -1,11 +1,12 @@
 # Parent path for markdown (left side of content path)
-post_path: ~/Sites/vietnamvac/source/media
+post_path: ~/dev/vietnamvac.github.io/source/media
 
 # Parent path for image folder (right side of content path)
-img_path: ~/Downloads/vietnamvac
+img_path: ~/Downloads
 
+# Local image folder name must match server because it's used to populate the template
 content:
-  vietnam-2015/index.markdown: vietnam-2015
+  vietnam-2018/index.markdown: vietnam-2018
   # Paths are relative to post_path
   # boston-2014/index.markdown: boston-2014
   # boston-2013/index.markdown:  boston-2013
